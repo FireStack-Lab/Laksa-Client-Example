@@ -1,4 +1,4 @@
-import { Select, Divider, Drawer, Button, Form, Input, message } from 'antd'
+import { Select, Divider, Drawer, Button, Form, Input } from 'antd'
 import { connect } from 'dva'
 import { Component } from 'react'
 import { createAction } from '../utils'
@@ -229,27 +229,10 @@ function Index(props) {
     </div>
   )
 }
-const error = text => {
-  message.error(text)
-}
 
-const success = text => {
-  message.success(text)
-}
 
 class IndexComp extends Component {
-  componentDidUpdate(props) {
-    if (props.connection) {
-      success('Provider is online')
-    } else if (!props.connection) {
-      error('Provider is off-line')
-    }
-    if (props.scillaConnection) {
-      success('Scilla Provider is online')
-    } else if (!props.scillaConnection) {
-      error('Scilla Provider is off-line')
-    }
-  }
+  
   render() {
     return <Index {...this.props} />
   }
