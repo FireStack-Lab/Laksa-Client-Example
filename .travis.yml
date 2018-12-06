@@ -7,11 +7,11 @@ branches:
   except:
     - /^v[0-9]/
 install:
-  - yarn global add serve
+  - yarn global add now
   - yarn install --pure-lockfile
 script:
   - umi build
-  - serve ./dist
+  - now ./dist
 cache:
   directories:
     - '$HOME/.yarn-cache'
