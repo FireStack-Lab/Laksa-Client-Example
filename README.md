@@ -4,7 +4,7 @@
 
 ## Abount this example
 
-We just demostrate how to use (`Laksa`)[https://github.com/FireStack-Lab/Laksa] to build a fully front-end app as client-side and have all the abillities to access Zilliqa's blockchain.
+We just demostrate how to use `(Laksa)[https://github.com/FireStack-Lab/Laksa]` to build a fully front-end app as client-side and have all the abillities to access Zilliqa's blockchain.
 
 
 ## system requirement
@@ -12,13 +12,13 @@ We just demostrate how to use (`Laksa`)[https://github.com/FireStack-Lab/Laksa] 
 1. node.js (v10.0.0+)
    
 ```bash
-node -v //check your node.js version
+node -v #check your node.js version
 ```
 
 2. latest npm or yarn (**Recommended**)
 
 ```bash
-npm i -g yarn
+npm i -g yarn #install yarn
 ```
 3. google chrome(firefox is not tested yet)
 
