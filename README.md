@@ -1,8 +1,8 @@
 # Simple example using Laksa to access to Zilliqa's Blockchain
 
-**DO NOT USE IT AS PRODUCTION**
+## **Warning: DO NOT USE IT AS PRODUCTION**
 
-## Abount this example
+## About this example
 
 We just demostrate how to use `(Laksa)[https://github.com/FireStack-Lab/Laksa]` to build a fully front-end app as client-side and have all the abillities to access Zilliqa's blockchain.
 
@@ -44,9 +44,10 @@ yarn start
 4. open browser and access `http://localhost:8000`
 
 ## Main Feature
+
 ### Home
 1. Check connection to Zilliqa's TestNet and Scilla runner(remote)
-2. You can add provider of your own(if you have full-node or scilla-runner runing, `http` only, **NOT WebSocket**)
+2. You can add provider of your own(if you have full-node or scilla-runner runing, `http` only, **NOT `WebSocket`**)
 
 ### Explorer
 1. You can see recent Transactions/TxBlocks/DsBlocks
@@ -72,8 +73,9 @@ yarn start
 2. [Umi.js, Pluggable enterprise-level react application framework.](https://umijs.org/)
 3. [Dva.js, React and redux based, lightweight and elm-style framework.](https://dvajs.com/)
 4. [antd, A design system with values of Nature and Determinacy for better user experience of enterprise application](https://ant.design)
+5. [Dexie.js, A Minimalistic Wrapper for IndexedDB](https://dexie.org/)
 
-## Zilliqa's Blockchain
+## Zilliqa's Repos
 1. [Zilliqa](https://github.com/Zilliqa/zilliqa)
 2. [@Zilliqa-js](https://github.com/Zilliqa/Zilliqa-Javascript-Library)
 
