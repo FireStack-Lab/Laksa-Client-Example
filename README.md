@@ -4,8 +4,9 @@
 
 ## About this example
 
-We just demostrate how to use `(Laksa)[https://github.com/FireStack-Lab/Laksa]` to build a fully front-end app as client-side and have all the abillities to access Zilliqa's blockchain.
+We just demostrate how to use (Laksa)[https://github.com/FireStack-Lab/Laksa] to build a fully front-end app as client-side and have all the abillities to access Zilliqa's blockchain.
 
+Demo: (https://Laksa-Client-Example.now.sh/)[https://Laksa-Client-Example.now.sh/]
 
 ## system requirement
 
