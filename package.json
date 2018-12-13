@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "dexie": "^2.0.4",
-    "laksa": "^0.0.103",
+    "laksa": "^0.0.108",
     "node-pre-gyp": "^0.12.0",
     "randomcolor": "^0.5.3",
     "react-ace": "^6.2.0",
